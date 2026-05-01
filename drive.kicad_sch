@@ -1,0 +1,198 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8fcb549a-cfcf-410d-b0cb-2819149beb55")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 152.4 92.202)
+		(size 42.672 28.448)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1d2b1c2d-0c47-427a-b372-8c39fe2aeaeb")
+		(property "Sheetname" "Motor Drive"
+			(at 152.4 91.4904 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_drive.kicad_sch"
+			(at 152.4 121.2346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "drive"
+				(path "/8fcb549a-cfcf-410d-b0cb-2819149beb55"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 108.712 165.354)
+		(size 21.082 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3402ce9e-fa76-4e70-98de-d1e5a2d752fe")
+		(property "Sheetname" "microcontroller"
+			(at 108.712 164.6424 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 108.712 181.1786 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "drive"
+				(path "/8fcb549a-cfcf-410d-b0cb-2819149beb55"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 94.996 82.296)
+		(size 24.384 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9878adfc-b262-4598-93d3-ddf92b681e7c")
+		(property "Sheetname" "power"
+			(at 94.996 81.5844 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 94.996 100.6606 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "drive"
+				(path "/8fcb549a-cfcf-410d-b0cb-2819149beb55"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.304 59.182)
+		(size 17.272 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f291c1ee-6428-4bfa-b73e-99eb2a9dba27")
+		(property "Sheetname" "CAN"
+			(at 146.304 58.4704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "canbus.kicad_sch"
+			(at 146.304 73.7366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "drive"
+				(path "/8fcb549a-cfcf-410d-b0cb-2819149beb55"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
