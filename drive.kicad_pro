@@ -645,7 +645,7 @@
         "uuid": "8fcb549a-cfcf-410d-b0cb-2819149beb55"
       }
     ],
-    "used_designators": "PS1",
+    "used_designators": "Q2-7,R3-4,R13-14,R17-20,R23-32,#PWR33-35,#PWR40-41,#PWR46-59,C19,C30-33,U6-7",
     "variants": []
   },
   "sheets": [

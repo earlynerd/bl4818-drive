@@ -681,7 +681,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MSic:MIE1W0505BGLVH-3R-Z"
+		(symbol "PMIC-regulator:MIE1W0505BGLVH-3R-Z"
 			(pin_names
 				(offset 1.016)
 			)
@@ -702,7 +702,7 @@
 				)
 			)
 			(property "Value" "MIE1W0505BGLVH-3R-Z"
-				(at -10.16 -15.24 0)
+				(at -10.16 -10.795 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -712,7 +712,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "MSic:CONV_MIE1W0505BGLVH-3R-Z"
+			(property "Footprint" "PMIC:CONV_MIE1W0505BGLVH-3R-Z"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -797,7 +797,7 @@
 			(symbol "MIE1W0505BGLVH-3R-Z_0_0"
 				(rectangle
 					(start -10.16 10.16)
-					(end 10.16 -12.7)
+					(end 10.16 -8.89)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -807,7 +807,7 @@
 					)
 				)
 				(pin power_in line
-					(at 15.24 -2.54 180)
+					(at -15.24 -3.81 0)
 					(length 5.08)
 					(name "GND1"
 						(effects
@@ -825,7 +825,7 @@
 					)
 				)
 				(pin power_in line
-					(at 15.24 -7.62 180)
+					(at 15.24 -3.81 180)
 					(length 5.08)
 					(name "GND2"
 						(effects
@@ -843,7 +843,7 @@
 					)
 				)
 				(pin power_in line
-					(at 15.24 -10.16 180)
+					(at 15.24 -6.35 180)
 					(length 5.08)
 					(name "GND2__1"
 						(effects
@@ -933,7 +933,7 @@
 					)
 				)
 				(pin power_in line
-					(at 15.24 -5.08 180)
+					(at -15.24 -6.35 0)
 					(length 5.08)
 					(name "GND1__1"
 						(effects
@@ -1177,8 +1177,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MSic:MIE1W0505BGLVH-3R-Z")
-		(at 121.92 125.73 0)
+		(lib_id "PMIC-regulator:MIE1W0505BGLVH-3R-Z")
+		(at 123.19 121.285 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1187,9 +1187,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "819250ed-104c-4569-bc3e-51090df5e4e1")
-		(property "Reference" "PS1"
-			(at 121.92 110.49 0)
+		(uuid "ead9db6f-05a0-4bf3-b846-979567933a0f")
+		(property "Reference" "PS2"
+			(at 123.19 106.045 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1199,7 +1199,7 @@
 			)
 		)
 		(property "Value" "MIE1W0505BGLVH-3R-Z"
-			(at 121.92 113.03 0)
+			(at 123.19 108.585 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1208,8 +1208,8 @@
 				)
 			)
 		)
-		(property "Footprint" "MSic:CONV_MIE1W0505BGLVH-3R-Z"
-			(at 121.92 125.73 0)
+		(property "Footprint" "PMIC:CONV_MIE1W0505BGLVH-3R-Z"
+			(at 123.19 121.285 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1221,7 +1221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 125.73 0)
+			(at 123.19 121.285 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1232,7 +1232,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 125.73 0)
+			(at 123.19 121.285 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1243,7 +1243,7 @@
 			)
 		)
 		(property "PARTREV" "0.8"
-			(at 121.92 125.73 0)
+			(at 123.19 121.285 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1255,7 +1255,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 121.92 125.73 0)
+			(at 123.19 121.285 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1267,7 +1267,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.28mm"
-			(at 121.92 125.73 0)
+			(at 123.19 121.285 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1279,7 +1279,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Monolithic Power Systems Inc."
-			(at 121.92 125.73 0)
+			(at 123.19 121.285 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1290,34 +1290,34 @@
 				(justify bottom)
 			)
 		)
-		(pin "9_10"
-			(uuid "f6da6a5f-17d5-45aa-87e3-123c011a8510")
-		)
-		(pin "1"
-			(uuid "5b6f4d5d-0b23-454b-856a-cfd7ea299dbc")
-		)
 		(pin "5_6"
-			(uuid "93f004af-a12b-4521-8ea4-f62c227871de")
+			(uuid "12fde1fd-4642-468d-85d3-1cc878733918")
 		)
-		(pin "11_12"
-			(uuid "0c704e5d-68ba-4c3e-bb27-ba2e9355aac1")
-		)
-		(pin "2"
-			(uuid "5d741311-4d64-49cf-8eb1-e4d3681ba7a5")
-		)
-		(pin "7"
-			(uuid "61674378-dbff-40cb-ba48-d3aa625c3729")
-		)
-		(pin "8"
-			(uuid "30c6fda8-0c4f-4c1f-a763-efdc83282f00")
+		(pin "9_10"
+			(uuid "be2a0ea1-3ce3-4f21-803c-cc73b275dcb6")
 		)
 		(pin "3_4"
-			(uuid "196745fb-8501-4a18-b75d-4ae03073c5d4")
+			(uuid "7f81978d-a4ce-4921-9d1b-63121ba41c2d")
+		)
+		(pin "8"
+			(uuid "6fdeac86-50d4-4270-bef7-84c930e2e4be")
+		)
+		(pin "7"
+			(uuid "b6129225-aaaf-4938-bf1d-3fc4be404232")
+		)
+		(pin "1"
+			(uuid "fbc80539-3680-437f-926c-8c864dae21df")
+		)
+		(pin "11_12"
+			(uuid "5464b83e-f889-4542-8d61-776b112088f9")
+		)
+		(pin "2"
+			(uuid "cb55b6e6-4daf-4077-8899-4b81d0fbfad3")
 		)
 		(instances
 			(project "drive"
 				(path "/8fcb549a-cfcf-410d-b0cb-2819149beb55/f291c1ee-6428-4bfa-b73e-99eb2a9dba27"
-					(reference "PS1")
+					(reference "PS2")
 					(unit 1)
 				)
 			)

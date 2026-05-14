@@ -2,4 +2,8 @@
 	(version 7)
 	(lib (name "MSic") (type "KiCad") (uri "${KIPRJMOD}/MSic.pretty") (options "") (descr ""))
 	(lib (name "MSic") (type "KiCad") (uri "C:/Users/mmsyl/Documents/MS kicad library/MSic.pretty") (options "") (descr ""))
+	(lib (name "IC") (type "KiCad") (uri "${KIPRJMOD}/Footprints/IC.pretty") (options "") (descr ""))
+	(lib (name "DRV8316") (type "KiCad") (uri "${KIPRJMOD}/Footprints/DRV8316.pretty") (options "") (descr ""))
+	(lib (name "xt30") (type "KiCad") (uri "${KIPRJMOD}/Footprints/xt30.pretty") (options "") (descr ""))
+	(lib (name "fet") (type "KiCad") (uri "${KIPRJMOD}/Footprints/fet.pretty") (options "") (descr ""))
 )
