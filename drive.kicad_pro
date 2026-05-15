@@ -501,20 +501,7 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/USB_D_N": [
-        "usb"
-      ],
-      "/USB_D_P": [
-        "usb"
-      ],
-      "/microcontroller/USB_D_N": [
-        "usb"
-      ],
-      "/microcontroller/USB_D_P": [
-        "usb"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -595,12 +582,48 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SManufacturer",
+          "name": "SManufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VPN",
+          "name": "VPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -645,29 +668,13 @@
         "uuid": "8fcb549a-cfcf-410d-b0cb-2819149beb55"
       }
     ],
-    "used_designators": "Q2-7,R3-4,R13-14,R17-20,R23-32,#PWR33-35,#PWR40-41,#PWR46-59,C19,C30-33,U6-7",
+    "used_designators": "Q2-7,J1-2,J4-5,R1-6,R13-15,R17-20,R23-33,D3-6,#PWR4-5,#PWR14,#PWR26,#PWR33-35,#PWR40-41,#PWR46-95,C1-2,C19,C30-50,U1-4,U6-8",
     "variants": []
   },
   "sheets": [
     [
       "8fcb549a-cfcf-410d-b0cb-2819149beb55",
       "Root"
-    ],
-    [
-      "3402ce9e-fa76-4e70-98de-d1e5a2d752fe",
-      "microcontroller"
-    ],
-    [
-      "1d2b1c2d-0c47-427a-b372-8c39fe2aeaeb",
-      "Motor Drive"
-    ],
-    [
-      "f291c1ee-6428-4bfa-b73e-99eb2a9dba27",
-      "CAN"
-    ],
-    [
-      "9878adfc-b262-4598-93d3-ddf92b681e7c",
-      "power"
     ]
   ],
   "text_variables": {},
